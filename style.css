@@ -1,6 +1,10 @@
+body{
+    text-align: center;
+}
+
 .header{
     background-color: blue;
-
+    height: 12rem;
 }
 
 .footer{
@@ -8,3 +12,16 @@
 
 }
 
+.content{
+    background-color: brown;
+}
+
+.card{
+    background-color: black;
+}
+
+@media screen{
+    .header, .footer, .navbar, .content, .card{
+        text-align: center;
+    }
+}
