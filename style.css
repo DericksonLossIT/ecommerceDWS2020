@@ -18,6 +18,8 @@ body{
 
 .card{
     background-color: black;
+    margin: auto;
+    width: 18rem;
 }
 
 @media screen{
