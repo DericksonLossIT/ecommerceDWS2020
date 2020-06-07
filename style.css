@@ -3,25 +3,37 @@ body{
 }
 
 .header{
-    background-color: blue;
-    height: 12rem;
+    background-color: rgb(34, 34, 34);
+    height: 6rem;
 }
 
 .footer{
-    background-color: aqua;
-
+    background-color: rgb(34, 34, 34);
+    height: 6rem;
 }
 
 .content{
-    background-color: brown;
+    background-color: transparent;
 }
 
 .card{
-    background-color: black;
     margin: auto;
     width: 18rem;
 }
 
+#add{
+    border: solid black 3px;
+    border-radius: 10px;
+    background-color: white;
+    cursor: pointer;
+    text-align: center;
+}
+@media screen{
+    .card-title, .card-text{
+        font-family: "Old English Text MT";
+    }
+
+}
 @media screen{
     .header, .footer, .navbar, .content, .card{
         text-align: center;
