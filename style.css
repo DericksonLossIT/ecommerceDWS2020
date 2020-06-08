@@ -2,14 +2,19 @@ body{
     text-align: center;
 }
 
+body, html{
+    height: 100%;
+    width: 100%;
+}
+
 .header{
-    background-color: rgb(34, 34, 34);
-    height: 6rem;
+    background-color: rgba(34, 34, 34);
+    height: 10rem;
 }
 
 .footer{
     background-color: rgb(34, 34, 34);
-    height: 6rem;
+    height: 10rem;
 }
 
 .content{
@@ -19,21 +24,24 @@ body{
 .card{
     margin: auto;
     width: 18rem;
+    margin-bottom: 120px;
 }
 
 #add{
-    border: solid black 3px;
+    border: solid rgba(34, 34, 34) 3px;
     border-radius: 10px;
     background-color: white;
     cursor: pointer;
     text-align: center;
 }
+
 @media screen{
     .card-title, .card-text{
         font-family: "Old English Text MT";
     }
 
 }
+
 @media screen{
     .header, .footer, .navbar, .content, .card{
         text-align: center;
